@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: row;
+}
+#container {
+  width: 100%;
+}
+#bgSectionOne {
+  width: 34%;
+  height: 100vh;
+  background-image: url(./images/bg-main-desktop.png);
+}
+#cardFront {
+  position: absolute;
+  background-image: url(./images/bg-card-front.png);
+  width: 445px;
+  height: 244px;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+#cardBack {
+  position: absolute;
+  background-image: url(./images/bg-card-back.png);
+  width: 445px;
+  height: 244px;
+  margin-left: 20%;
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#fristCircle {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  background-color: white;
+}
+#secondCircle {
+  width: 25px;
+  border-radius: 50%;
+  height: 25px;
+  border: white solid 1px;
+}
+header {
+  display: flex;
+  gap: 10px;
+  margin: 25px;
+  align-items: center;
+}
+#numberCard {
+  background-color: transparent;
+  width: 350px;
+  margin-top: 20px;
+  height: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+input::placeholder {
+  color: white;
+  font-size: 30px;
+}
+#userNameInput {
+  margin: 20px;
+  background: transparent;
+  font-size: small;
+  border: none;
+}
+#userNameInput::placeholder {
+  font-size: medium;
+}
+#dateCard {
+  width: 70px;
+  height: 15px;
+  background: transparent;
+  border: none;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#dateCard::placeholder {
+  font-size: medium;
+}
+#CVC {
+  margin-right: 50px;
+  background: transparent;
+  border: none;
+  height: 20px;
+  width: 50px;
+}
+#CVC::placeholder {
+  font-size: 15px;
+  color: rgb(47, 47, 47);
+  font-style: italic;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+  margin-top: 200px;
+}
+.date{
+  width: 40px;
+}
+#codeCVC{
+  width: 50px;
+}
+input{
+  border-radius: 5px;
+  border: solid 1px rgb(120, 119, 119);
+  height: 25px;
+}

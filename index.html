@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <section id="cardFront">
+        <header>
+          <div id="fristCircle"></div>
+          <div id="secondCircle"></div>
+        </header>
+        <main>
+          <input id="numberCard" placeholder="0000 0000 0000 0000" value = ""disabled />
+        </main>
+        <footer>
+          <input type="text" id="userNameInput" placeholder="Nome" value = "" disabled />
+          <input
+            type="text"
+            name=""
+            id="dateCard"
+            placeholder="00/00"
+            disabled
+          />
+        </footer>
+      </section>
+      <section id="cardBack">
+        <input type="text" name="" id="CVC" placeholder="000" disabled/>
+      </section>
+      <section id="bgSectionOne"></section>
+    </div>
+    <section id="cardDados">
+      <form>
+        <label for="UserName">Nome</label>
+        <input type="text" name="" id="UserName" />
+        <label for="numberCardInput">Numero de cartão</label>
+        <input type="text" id="numberCardInput" />
+        <label for="date-mm">mm/yy</label>
+        <div>
+          <input type="text" class="date" id="date-mm"/>
+          <input type="text" class="date" id="date-yy"/>
+        </div>
+      </form>
+      <label for="codeCVC">CVC</label><br />
+      <input type="text" id="codeCVC" />
+    </section>
+    
+  </body>
+  <script src="./index.js"></script>
+</html>
