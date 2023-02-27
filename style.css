@@ -52,7 +52,7 @@ header {
   margin: 25px;
   align-items: center;
 }
-#numberCard {
+#exhibitionCard {
   background-color: transparent;
   width: 350px;
   margin-top: 20px;
@@ -66,16 +66,16 @@ input::placeholder {
   color: white;
   font-size: 30px;
 }
-#userNameInput {
+#exhibitionUsername {
   margin: 20px;
   background: transparent;
   font-size: small;
   border: none;
 }
-#userNameInput::placeholder {
+#exhibitionUsername::placeholder {
   font-size: medium;
 }
-#dateCard {
+#exhibitionDateCard {
   width: 70px;
   height: 15px;
   background: transparent;
@@ -87,17 +87,17 @@ footer {
   align-items: center;
 }
 
-#dateCard::placeholder {
+#exhibitionDateCard::placeholder {
   font-size: medium;
 }
-#CVC {
+#exhibitionCVC {
   margin-right: 50px;
   background: transparent;
   border: none;
   height: 20px;
   width: 50px;
 }
-#CVC::placeholder {
+#exhibitionCVC::placeholder {
   font-size: 15px;
   color: rgb(47, 47, 47);
   font-style: italic;
